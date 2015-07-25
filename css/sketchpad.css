@@ -1,0 +1,43 @@
+#clearButton{
+	height: 28px;
+	width: 15%;
+	margin: 20px auto;
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#clearButton:hover{
+	background-color: #3333CC;
+	color: white;
+	cursor: pointer;
+
+}
+
+#container{
+	height: 480px;
+	width: 480px;
+	border: 1px solid black;
+	margin: 50px auto;
+
+}
+
+.grid {
+	height: 28px;
+	width: 28px;
+	border:1px solid black;
+	display: inline-block;
+	float: left;
+
+}
+
+.highlighted{
+	background-color: yellow;
+}
+
+.fresh {
+	background-color: white;
+}
+
