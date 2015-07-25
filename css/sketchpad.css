@@ -33,11 +33,11 @@
 
 }
 
+/* Only used during nonrandom coloring of grids
+
+
 .highlighted{
-	background-color: yellow;
+	background-color: #3333CC;
 }
 
-.fresh {
-	background-color: white;
-}
-
+*/

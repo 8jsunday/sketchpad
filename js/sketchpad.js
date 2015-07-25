@@ -6,13 +6,21 @@ createGrids(16);
 	
 
 	$container.on('mouseenter','.grid',function(){
-var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-		$(this).css({'backgroundColor':hue});
+
+	/*Only used during nonrandom coloring of grids
+	$(this).addClass('highlighted')*/
+	
+	var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+	$(this).css({'backgroundColor':hue});
+	
 	});
 
 	$('#clearButton').on('click',function(){
 
-		//$(this).next().find('.grid').removeClass('highlighted');
+
+	/*Only used during nonrandom coloring of grids
+	$(this).next().find('.grid').removeClass('highlighted')*/
+
 	var gridNumber = prompt("Enter grind size", "16");
 	$container.empty();
 	createGrids(gridNumber);
